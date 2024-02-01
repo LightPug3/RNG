@@ -52,7 +52,7 @@ Refer to the lab manual for the specific information that must be added to this 
 ### Start Flask API
 Windows
 ```sh
-py run.py 
+py run.py
 ```
 Linux
 ```sh
