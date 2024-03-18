@@ -70,7 +70,6 @@ const toggle = (name) => {
 onMounted(()=>{
     // THIS FUNCTION IS CALLED AFTER THIS COMPONENT HAS BEEN MOUNTED
     Mqtt.connect(); // Connect to Broker located on the backend
-
     setTimeout(() => {
         // Subscribe to each topic
         Mqtt.subscribe("620156694");

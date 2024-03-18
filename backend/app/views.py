@@ -25,7 +25,7 @@ from math import floor
 #   Routing for your application    #
 #####################################
 
-@app.route('/api/numberfrequency', methods=['GET']) 
+@app.route('/api/numberfrequency', methods=['GET'])     
 def get_numberFrequency():   
     '''Returns list of frequency'''
     
